@@ -47,7 +47,8 @@
 ---
 ## Настройка Prometheus и Process-exporter <a id="settings"></a>
 1. Установить и настроить [Prometheus](https://prometheus.io/docs/prometheus/latest/getting_started/)  
-   Установить на Linux можно с помощью bash-скрипта --> install-prometheus.sh
+   Установить на Linux можно с помощью bash-скрипта --> 
+   [install-prometheus.sh](https://github.com/promokk/bash-scripts/blob/main/install-scripts/install-prometheus.sh)
     * Добавить новый job в файл конфигурации prometheus /etc/prometheus/prometheus.yml.  
       Вместо {host} необходимо указать свои сервера.
     ~~~shell
@@ -61,4 +62,5 @@
           ]
      ~~~
 2. Установить и настроить [Process-exporter](https://github.com/ncabatoff/process-exporter?tab=readme-ov-file)  
-   Установить на Linux можно с помощью bash-скрипта --> install-process-exporter.sh
+   Установить на Linux можно с помощью bash-скрипта --> 
+   [install-process-exporter.sh](https://github.com/promokk/bash-scripts/blob/main/install-scripts/install-process-exporter.sh)
