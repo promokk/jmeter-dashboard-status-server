@@ -21,7 +21,7 @@
 то иногда возникает вопрос, свободен ли сервер.  
 Этот небольшой дашборд позволит найти свободные сервера для запуска тестов.
 
-![Jmeter Status Server - картинка](https://github.com/promokk/jmeter-dashboard-status-server/main/data/Jmeter_Status_Server.png)
+![Jmeter Status Server - картинка](https://raw.githubusercontent.com/promokk/jmeter-dashboard-status-server/main/data/Jmeter_Status_Server.png)
 
 ---
 ### Count Server <a id="countServer"></a>
