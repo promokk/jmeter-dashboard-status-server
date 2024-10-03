@@ -1,8 +1,8 @@
 # Jmeter-dashboard-status-server
 Дашборд Grafana для мониторинга статусов генераторов нагрузки (серверов) 
 при запуске тестов с помощью [Jmeter](https://jmeter.apache.org/). 
-Позволяет определить свободен или занят сервер процессом jmeter или jmeter-server.  
-Это ускорит поиск свободного сервера для запуска теста.  
+Позволяет определить, свободен или занят сервер процессом jmeter или jmeter-server.  
+Это ускорит поиск свободного сервера для запуска тестов.  
 Для работы дашборда используется Prometheus и [Process-exporter](https://github.com/ncabatoff/process-exporter).
 
 Дашборд загружен в [Grafana Labs](https://grafana.com/grafana/dashboards/21999-jmeter-dashboard-status-server/).
