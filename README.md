@@ -52,6 +52,7 @@
     * Добавить новый job в файл конфигурации prometheus /etc/prometheus/prometheus.yml.  
       Вместо {host} необходимо указать свои сервера.
     ~~~shell
+   # prometheus.yml
     scrape_configs:
       - job_name: 'process-exporter'
         scrape_interval: 10s
