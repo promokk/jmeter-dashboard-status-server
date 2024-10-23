@@ -51,7 +51,8 @@
    [install-prometheus.sh](https://github.com/promokk/bash-scripts/blob/main/install-scripts/install-prometheus.sh)
     * Добавить новый job в файл конфигурации prometheus /etc/prometheus/prometheus.yml.  
       Вместо {host} необходимо указать свои сервера.
-    ~~~shell
+
+~~~shell
    # prometheus.yml
     scrape_configs:
       - job_name: 'process-exporter'
@@ -61,7 +62,8 @@
             '{host}:9256',
             '{host}:9256'
           ]
-     ~~~
+~~~
+
 2. Установить и настроить [Process-exporter](https://github.com/ncabatoff/process-exporter?tab=readme-ov-file)  
    Установить на Linux можно с помощью bash-скрипта --> 
    [install-process-exporter.sh](https://github.com/promokk/bash-scripts/blob/main/install-scripts/install-process-exporter.sh)
